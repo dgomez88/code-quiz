@@ -1,20 +1,57 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
+.highscore-left {
+    float: left;
+}
+
+.timer-container {
+    float: right;
+   
+}
+
+.code-quiz-div {
     padding: 0;
     margin: 0;
     display: flex;
     height: 40vh;
     align-items: center;
     justify-content: center;
+    
+}  
+
+.code-quiz-title {
+    margin: auto;
+  width: 50%;
+  border: 3px solid;
+  padding: 10px;
+  text-align: center;
+
 }
 
-.container {
-
+code-quiz-start-btn-css {
+    margin: 0;
 }
+
+.code-quiz-start-btn {
+    width: 50%;
+}
+
+
+.question-container {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
+}
+
+.h1 {
+    align-items: center;
+}
+
 
 .buttons {
     display: grid;
@@ -23,9 +60,13 @@ body {
 }
 
 .btn {
-    background-color: purple;
+    background-color: blue;
+    border-color: black;
     color: white;
     border-radius: 5px;
     padding: 5px 10px;
+}
 
+.btn:hover {
+    border-color: white;
 }

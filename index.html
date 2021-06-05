@@ -11,24 +11,27 @@
 </head>
 
 <body>
-    <div id="highscore" class="highscore">View HighScore</div>
-    <div id="timer" class="timer">Timer:</div>
-    <div class=container>
-        <div id="questions" class="hide">
-            <div id="questions">Question</div>
-            <div id="answer-btn" class="buttons">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 2</button>
-            </div>
+    <div class="highscore-timer-div">
+        <div class="highscore-title-container">
+            <div id="highscore" class="highscore-left">View HighScore</div>
         </div>
-        <div class="controls">
-            <button id="start-btn" class="start-btn btn">Start</button>
-            <button id="next-btn" class="next-btn btn hide">Next</button>
+        <div class="timer-container">
+            <div id="timer" class="timer-right">Timer:</div>
         </div>
     </div>
+
+    <div class="code-quiz-div">
+        <div class="code-quiz-title">
+            <h2>Coding Quiz Challenge</h2>
+            <p class="code-info">Try to answer the following code-related questions within the time limit. Keep in mind
+                that incorrect answers will penalize your score time by ten seconds!</p>
+            <button id="code-quiz-start-btn" class="code-quiz-start-btn btn">Start Quiz</button>
+        </div>
+    </div>
+
+    
+
+    <script src="assets\code-quiz.js"></script>
 </body>
-<script src="assets/code-quiz.js"></script>
 
 </html>
